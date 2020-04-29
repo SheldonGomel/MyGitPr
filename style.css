@@ -82,32 +82,45 @@
 
    }
    #block3{
+
 	width: 100%; 
-	background: orange;
+text-align:center;
 	line-height: 50px;
+	background: orange;
+	/*line-height: 50px;*/
    }
    #block31{
+	height: 50px;
 	width: 85%;
-	float: left;
-	background: orange;
+	position:absolute;
+
+
    }
    #block32{
+	height: 50px;
+	margin: 0px 0px 0px 85%;
 	width: 5%;
-	float: left;
-	background: orange;
+	position:absolute;
+
+
    }
    #block33{
+	height: 50px;
+	margin: 0px 0px 0px 90%;
 	width: 5%;
-	float: left;
-	background: orange;
+	position:absolute;
+
+
    }
    #block34{
+	height: 50px;
+	margin: 0px 0px 0px 95%;
 	width: 5%;
-	float: left;
-	background: orange;
 
    }
-
+   #block4{
+	width: 100%; 
+   }
 
 h1 {font-size:20px;}
 h2 {font-size:20px;text-align:center;}
