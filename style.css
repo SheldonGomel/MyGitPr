@@ -1,3 +1,42 @@
-body {
-    background-color: yellow; 
-    }
+    .layer FOOTER { }
+
+   .layer2 {
+	border-collapse: collapse;
+	left: 0px; top: 0px;
+	width:100%;
+	height:100%;
+	background: transparent;
+   }
+
+   #col2 {
+    	width: 20%; 
+	height: 70px;
+	border: solid 1px black;
+	text-align:center;
+   }
+   .cell {
+	background: gray; 
+	height: 50px;
+	line-height: 50px;
+	border: 10px solid white;
+   }
+   #block1{
+	width: 100%; 
+   }
+   #navi{
+
+	background: yellow;
+	float: left;
+	width: 20%; 
+	padding:10px;
+
+   }
+   #content{
+margin: 0px 0px 0px 20%;	
+
+	background: pink;
+	padding:10px;
+	padding-left:20px;
+
+   }
+h1 {font-size:20px;}
