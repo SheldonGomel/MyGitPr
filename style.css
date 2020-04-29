@@ -1,6 +1,5 @@
-    .layer FOOTER { }
 
-   .layer2 {
+   #tbl {
 	border-collapse: collapse;
 	left: 0px; top: 0px;
 	width:100%;
@@ -14,29 +13,101 @@
 	border: solid 1px black;
 	text-align:center;
    }
-   .cell {
+   #cell {
 	background: gray; 
 	height: 50px;
 	line-height: 50px;
 	border: 10px solid white;
    }
-   #block1{
-	width: 100%; 
-   }
+
    #navi{
-
 	background: yellow;
-	float: left;
-	width: 20%; 
+	height:140px;
 	padding:10px;
-
    }
-   #content{
-margin: 0px 0px 0px 20%;	
+   #block1{
+	width: 100%;
+   }
+   #block11{
+	width: 20%;
+	position:absolute;
+   }
+   #block12{
 
+	width: 80%;
+	margin: 0px 0px 0px 20%;
+   }
+
+   #content1{
+	height:140px;
+	
 	background: pink;
 	padding:10px;
-	padding-left:20px;
 
    }
+   #block2{
+	width: 100%;
+ 
+
+   }
+   #block21{
+	position:absolute;
+	width: 20%;
+
+   }
+   #block22{
+	position:absolute;
+	width: 75%;
+	margin: 0px 0px 0px 20%;
+
+   }
+   #block23{
+
+	width: 5%;
+	margin: 0px 0px 0px 95%;
+
+
+   }
+   #content2{
+	height:140px;
+	background: green;
+	padding:10px;
+
+   }
+   #content3{
+
+	height:140px;
+	background: pink;
+	padding:10px;
+
+   }
+   #block3{
+	width: 100%; 
+	background: orange;
+	line-height: 50px;
+   }
+   #block31{
+	width: 85%;
+	float: left;
+	background: orange;
+   }
+   #block32{
+	width: 5%;
+	float: left;
+	background: orange;
+   }
+   #block33{
+	width: 5%;
+	float: left;
+	background: orange;
+   }
+   #block34{
+	width: 5%;
+	float: left;
+	background: orange;
+
+   }
+
+
 h1 {font-size:20px;}
+h2 {font-size:20px;text-align:center;}
