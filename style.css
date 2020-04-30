@@ -1,3 +1,126 @@
-body {
-    background-color: yellow; 
-    }
+
+   #tbl {
+	border-collapse: collapse;
+	left: 0px; top: 0px;
+	width:100%;
+	height:100%;
+	background: transparent;
+   }
+
+   #col2 {
+    	width: 20%; 
+	height: 70px;
+	border: solid 1px black;
+	text-align:center;
+   }
+   #cell {
+	background: gray; 
+	height: 50px;
+	line-height: 50px;
+	border: 10px solid white;
+   }
+
+   #navi{
+	background: yellow;
+	height:140px;
+	padding:10px;
+   }
+   #block1{
+	width: 100%;
+   }
+   #block11{
+	width: 20%;
+	position:absolute;
+   }
+   #block12{
+
+	width: 80%;
+	margin: 0px 0px 0px 20%;
+   }
+
+   #content1{
+	height:140px;
+	
+	background: pink;
+	padding:10px;
+
+   }
+   #block2{
+	width: 100%;
+ 
+
+   }
+   #block21{
+	position:absolute;
+	width: 20%;
+
+   }
+   #block22{
+	position:absolute;
+	width: 75%;
+	margin: 0px 0px 0px 20%;
+
+   }
+   #block23{
+
+	width: 5%;
+	margin: 0px 0px 0px 95%;
+
+
+   }
+   #content2{
+	height:140px;
+	background: green;
+	padding:10px;
+
+   }
+   #content3{
+
+	height:140px;
+	background: pink;
+	padding:10px;
+
+   }
+   #block3{
+
+	width: 100%; 
+text-align:center;
+	line-height: 50px;
+	background: orange;
+	/*line-height: 50px;*/
+   }
+   #block31{
+	height: 50px;
+	width: 85%;
+	position:absolute;
+
+
+   }
+   #block32{
+	height: 50px;
+	margin: 0px 0px 0px 85%;
+	width: 5%;
+	position:absolute;
+
+
+   }
+   #block33{
+	height: 50px;
+	margin: 0px 0px 0px 90%;
+	width: 5%;
+	position:absolute;
+
+
+   }
+   #block34{
+	height: 50px;
+	margin: 0px 0px 0px 95%;
+	width: 5%;
+
+   }
+   #block4{
+	width: 100%; 
+   }
+
+h1 {font-size:20px;}
+h2 {font-size:20px;text-align:center;}
